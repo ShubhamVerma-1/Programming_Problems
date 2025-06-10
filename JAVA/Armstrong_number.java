@@ -5,7 +5,7 @@ public class Armstrong_number{
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter a number:- ");
+        System.out.print("Enter a number:- ");
         int num = input.nextInt();
         int digit_count = count_numbers(num);
         int sum = solving_number(num, digit_count);
