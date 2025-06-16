@@ -18,7 +18,7 @@ public class Sum_Average{
         average_array(sum,arr.length);
 
     }
-    public static int sum_array(int[] array){ //calculate the sum of array
+    public static int sum_array(int[] array){ // calculate the sum of array
         int sum = 0;
         for(int i=0;i<array.length;i++){
             sum = sum+ array[i];
